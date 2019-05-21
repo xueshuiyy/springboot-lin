@@ -13,8 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class TulingServiceImpl {
 
-    @Autowired
-    private TulingDao tulingDao;
+//    @Autowired
+//    private TulingDao tulingDao;
 
     public void testService() {
 //        tulingDao.testTulingDao();
