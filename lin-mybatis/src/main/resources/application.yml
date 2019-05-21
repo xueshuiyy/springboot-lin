@@ -1,0 +1,13 @@
+spring:
+  datasource:
+      username: root
+      password: 1234
+      url: jdbc:mysql://localhost:3306/tuling?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 9001
+#配置mybaits
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mybatis/mapper/*.xml
