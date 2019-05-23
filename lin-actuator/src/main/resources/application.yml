@@ -1,0 +1,21 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: beans,env
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java.source: @java.version@
+    target: @java.version@
+logging:
+  level:
+    web: trace
+#spring:
+#  http:
+#    log-request-details: true
