@@ -7,6 +7,7 @@ management:
       exposure:
         include: "*"
         exclude: beans,env
+      base-path: /lin-actuator
 info:
   app:
     name: @project.artifactId@
@@ -16,6 +17,3 @@ info:
 logging:
   level:
     web: trace
-#spring:
-#  http:
-#    log-request-details: true
