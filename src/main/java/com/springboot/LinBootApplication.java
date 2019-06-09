@@ -47,8 +47,8 @@ public class LinBootApplication {
     }
 
 
-    @Bean
-    @Conditional(value = TulingConditional.class)
+//    @Bean
+//    @Conditional(value = TulingConditional.class)
     public TulingLog tulingLog() {
         System.out.println("TulingLog组件自动装配到容器中");
         return new TulingLog();

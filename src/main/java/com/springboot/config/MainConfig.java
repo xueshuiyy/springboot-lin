@@ -17,7 +17,8 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
  * @since XTJCB
  */
 @Configuration
-@Import(value={TulingSelector.class})
+//@Import(value={TulingSelector.class})
+@Import(value={TulingImportBeanDefinitionRegistrar.class})
 //@Import(value={TulingSelector.class, TulingImportBeanDefinitionRegistrar.class})
 public class MainConfig {
 }

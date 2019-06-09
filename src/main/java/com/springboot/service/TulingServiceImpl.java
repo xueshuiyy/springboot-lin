@@ -13,11 +13,11 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class TulingServiceImpl {
 
-//    @Autowired
-//    private TulingDao tulingDao;
+    @Autowired
+    private TulingDao tulingDao;
 
     public void testService() {
-//        tulingDao.testTulingDao();
+        tulingDao.testTulingDao();
         System.out.println("我是通过importSelector导入进来的service");
     }
 }

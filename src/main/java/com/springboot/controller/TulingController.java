@@ -17,13 +17,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class TulingController {
 
     //自动注入 tulingServiceImpl
-    @Autowired
-    private TulingServiceImpl tulingServiceImpl;
+//    @Autowired
+//    private TulingServiceImpl tulingServiceImpl;
 
-    @RequestMapping("testTuling")
+    /*@RequestMapping("testTuling")
     public String testTuling() {
         tulingServiceImpl.testService();
         return "tulingOk";
-    }
+    }*/
 
 }
